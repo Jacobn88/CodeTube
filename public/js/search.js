@@ -15,7 +15,8 @@ async function generateSearch(search) {
         const url = "https://www.youtube.com/embed/" + video.id.videoID
         const videoEmbed = `
         <div class="video">
-            <iframe width="560" height="315" src="${url} id=${url} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="${url}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
         </div>`
 
         bodyEl.append(videoEmbed);
