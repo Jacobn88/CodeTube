@@ -1,15 +1,11 @@
-require('dotenv').config();
+// const env = require('dotenv').config(); COME BACK TO THIS!!!!!!!!
 
-// whatever the container is that will hold all the vids
 const bodyEl = $("#searches");
-
-// whatever the class of the search buttons is
-const searchButton = $(".search-button");
 
 async function generateSearch(search) {
     const searchResults = $.ajax({
         method: "GET",
-        url: "https://youtube.googleapis.com/youtube/v3/search?part=snippet&order=viewCount&q=" + search + "&type=video&videoDefinition=high&key=" +  process.env.KEY
+        url: "https://youtube.googleapis.com/youtube/v3/search?part=snippet&order=viewCount&q=" + search + "&type=video&videoDefinition=high&key=" +  "AIzaSyBOLEd4BA684o8JIFBgLks4HzKjLlRCh-U"
     })
 
     const result = await searchResults;
@@ -23,7 +19,9 @@ async function generateSearch(search) {
 
 //Event listener that calls generateSearch when a search is clicked
 
-searchButton.on("click", () =>{
-    const query = $(this).text();
+$(".search-button").on("click", () =>{
+    // const query = $(this).text();
+    const query = "HTML";
+    console.log($(this));
     generateSearch(query);
 })
