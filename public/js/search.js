@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 // whatever the container is that will hold all the vids
-const bodyEl = $("#body");
+const bodyEl = $("#searches");
 
 // whatever the class of the search buttons is
 const searchButton = $(".search-button");
