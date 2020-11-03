@@ -2,3 +2,12 @@ form.signup,
 form.login {
   margin-top: 50px;
 }
+
+.nav-link {
+  font-size: 19px;
+}
+
+.jumbotron {
+  margin-top: 50px;
+  text-align: center;
+ }
