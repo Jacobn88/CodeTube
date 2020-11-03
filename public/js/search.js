@@ -19,9 +19,7 @@ async function generateSearch(search) {
 
 //Event listener that calls generateSearch when a search is clicked
 
-$(".search-button").on("click", () =>{
-    // const query = $(this).text();
-    const query = "HTML";
-    console.log($(this));
+$(".search-button").on("click", function() {
+    const query = $(this).text();
     generateSearch(query);
 })
