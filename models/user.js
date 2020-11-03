@@ -14,6 +14,15 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: false
     }
   });
+
+//make association 
+User.associate = function(models) {
+  User.hasMany(models.videos, {
+    onDelete:"cascade"
+  })
+}
+
+
   User.prototype.validPassword = function(password) {
     return bcrypt.compareSync(password, this.password);
   };
