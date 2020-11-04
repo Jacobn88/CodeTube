@@ -12,7 +12,14 @@ form.login {
   text-align: center;
   min-width: 100%;
   min-height: 100%;
+
+ }
+
+#body-login {
+  background-image: url("https://thumbs.gfycat.com/PoliticalEarnestChevrotain-small.gif");
 }
+
+
 
 .saveplaylist {
   margin-bottom: 22px;
@@ -21,3 +28,4 @@ form.login {
   width: 560px;
   padding: 10px;
 } */
+
