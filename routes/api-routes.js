@@ -7,7 +7,7 @@ require("dotenv").config()
 module.exports = function(app) {
 
   app.get("/api/search/:search", function(req, res){
-    axios.get("https://youtube.googleapis.com/youtube/v3/search?part=snippet&order=viewCount&q=" + req.params.search + "&type=video&videoDefinition=high&key=" + "AIzaSyCSoqRZb9TlKv4jJkRSJa6Z4FZvxiV6x7c")
+    axios.get("https://youtube.googleapis.com/youtube/v3/search?part=snippet&order=viewCount&q=" + req.params.search + "&type=video&videoDefinition=high&key=" + process.env.KEY)
       .then(function(response){
         res.json(response.data);
       })
