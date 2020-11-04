@@ -1,25 +1,44 @@
-const sequelize = require("sequelize");
+// const sequelize = require("sequelize");
 
-module.exports = (sequelize,DataTypes) => {
-  let Videos = sequelize.define("Videos", {
-    title:{
+// module.exports = function (sequelize, DataTypes) {
+//   var Videos = sequelize.define("Videos", {
+//     title: {
+//       type: DataTypes.STRING,
+//       allowNull: false
+//     },
+//     url: {
+//       type: DataTypes.STRING,
+//       allowNull: false
+//     }
+
+//   });
+//   Videos.associate = function (models) {
+//     Videos.belongsTo(models.Videos, {
+//       foreignKey: {
+//         allowNull: false
+//       }
+//     })
+//   };
+//   Videos.sync();
+//   return Videos;
+// }
+
+module.exports = function (sequelize, DataTypes) {  
+  var Videos = sequelize.define("Videos", {
+    title: {
       type: DataTypes.STRING,
-      allowNull: false 
+      allowNull: false,
     },
-    url:{
+    url: {
       type: DataTypes.STRING,
       allowNull: false
     }
-
   });
-  Videos.associate = function(models) {
-    models.Videos.belongsTo(models.user, {
-      onDelete: "CASCADE",
-      foreignKey: {
-        allowNull: false
-      }
+
+  //make association 
+  Videos.associate = function (models) {
+    Videos.belongsTo(models.User, {
     })
-  };
-  Videos.sync();
+  }
   return Videos;
-}
+};
