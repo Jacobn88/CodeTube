@@ -26,8 +26,14 @@ body {
 .saveplaylist {
   margin-bottom: 22px;
 }
-/* .btn-default{
-  width: 560px;
-  padding: 10px;
-} */
 
+.save-to-playlist {
+  background-color: rgb(0, 54, 125);
+  color: whitesmoke;
+}
+
+
+h1 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(0, 54, 125);
+} 
