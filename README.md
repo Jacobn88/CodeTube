@@ -1,8 +1,11 @@
 <center>
+
 # CodeTube
+</center>
 <p align= "center">
 <img src="./public/images/codetubelogo.png" alt="logo" width="150"/>
 </p>
+
 ## Live Demo
 Put heroku link here
 
