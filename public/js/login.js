@@ -2,8 +2,10 @@ $(document).ready(function() {
   var loginForm = $("form.login");
   var emailInput = $("input#email-input");
   var passwordInput = $("input#password-input");
+  var submitButton = $("input[type=submit]")
 
-   loginForm.on("submit", function(event) {
+  submitButton.on("click", function(event) {
+    event.stopImmediatePropagation();
     event.preventDefault();
     var userData = {
       email: emailInput.val().trim(),
