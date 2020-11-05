@@ -2,15 +2,16 @@ $(document).ready(function() {
   var signUpForm = $("form.signup");
   var emailInput = $("input#email-input");
   var passwordInput = $("input#password-input");
-  var submitButton = $("input[type=submit]")
+  var submitButton = $("button[type=submit]")
 
   submitButton.on("click", function(event) {
-    event.stopImmediatePropagation();
+    // event.stopImmediatePropagation();
     event.preventDefault();
     var userData = {
       email: emailInput.val().trim(),
       password: passwordInput.val().trim()
     };
+    console.log("Data" + userData);
 
     if (!userData.email || !userData.password) {
       return;
