@@ -1,5 +1,6 @@
 
 $(".saveplaylist").on("click", function() {
+    console.log("Saving...")
     const saveEl = $(this);
     $.get("/api/user_data").then(function(data){
         const newVideo = {
