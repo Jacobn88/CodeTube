@@ -3,9 +3,10 @@ const bodyEl = $(".user-videos")
 $(document).ready(function() {
   $.get("/api/videos")
     .then(function(data) {
-      bodyEl.clear;
+      bodyEl.empty();
+      console.log(data);
 
-      result.items.forEach(video => { 
+      data.forEach(video => { 
           const url = video.url;
           const videoEmbed = `
           <div class="video">

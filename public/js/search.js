@@ -11,7 +11,7 @@ async function generateSearch(search) {
     $.get("/api/search/" + search)
         .then(function (result) {
             console.log(result.items[0]);
-            bodyEl.clear;
+            bodyEl.empty();
 
             result.items.forEach(video => { // Add button to videoEmbed
                 const url = "https://www.youtube.com/embed/" + video.id.videoId
