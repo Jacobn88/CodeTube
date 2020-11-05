@@ -15,7 +15,7 @@ $(document).ready(function() {
     if (!userData.email || !userData.password) {
       return;
     }
-       loginUser(userData.email, userData.password);
+    loginUser(userData.email, userData.password);
     emailInput.val("");
     passwordInput.val("");
   });
