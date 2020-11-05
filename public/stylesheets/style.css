@@ -32,8 +32,38 @@ body {
   color: whitesmoke;
 }
 
+h1#logo {
+  color: rgb(0, 54, 125)
+}
 
 h1 {
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: rgb(0, 54, 125);
+font-size: 40px;
 } 
+
+h2 {
+  color: rgb(0, 54, 125);
+}
+
+.btn-default {
+  background-color: rgb(0, 54, 125);
+  color: whitesmoke;
+  margin-top: 3px;
+}
+
+.btn-active {
+  background-color: rgb(142, 174, 211); 
+  color: rgb(0, 54, 125); 
+  margin-top: 3px
+}
+
+.progress-bar {
+  background-color: rgb(0, 54, 125);
+  color: whitesmoke;
+}
+
+.nav-link {
+  color: rgb(229, 235, 241);
+  background-color: transparent;
+}
