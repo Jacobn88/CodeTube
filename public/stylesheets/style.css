@@ -5,6 +5,15 @@ form.login {
 
 .nav-link {
   font-size: 19px;
+  color: white;
+  display: flex;
+  margin-top: 40px;
+}
+
+.navbar-brand {
+  align-items: center;
+  display: flex;
+  margin-top: 40px;
 }
 
 .jumbotron {
@@ -12,12 +21,19 @@ form.login {
   text-align: center;
   min-width: 100%;
   min-height: 100%;
+
+ }
+
+body {
+  background-image: url(https://i.pinimg.com/originals/00/2d/7e/002d7e638fb463fb7a266f5ffc7ac47d.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
 }
+
 
 .saveplaylist {
   margin-bottom: 22px;
 }
-/* .btn-default{
-  width: 560px;
-  padding: 10px;
-} */
+
+
