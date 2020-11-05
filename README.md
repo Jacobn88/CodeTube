@@ -1,7 +1,7 @@
-<center>
 
-# CodeTube
-</center>
+
+# CodeTube 
+
 <p align= "center">
 <img src="./public/images/codetubelogo.png" alt="logo" width="150"/>
 </p>
@@ -19,6 +19,8 @@ SO THAT I can quickly locate/access/organize videos and learn content efficientl
 
 
 ## Usage
+
+<img src="./public/images/codetubelogo.png" alt="logo" width="150"/>
 
 #### Login Page
 First Login to your account or go to next step to create a login
