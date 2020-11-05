@@ -2,9 +2,9 @@
 
 # CodeTube 
 
-<p align= "center">
-<img src="./public/images/codetubelogo.png" alt="logo" width="150"/>
-</p>
+
+<img src="./public/images/codetubelogoblue.png" alt="logo" width="150"/>
+
 
 ## Live Demo
 Put heroku link here
