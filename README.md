@@ -49,8 +49,8 @@ Ideas we have to expand the app are:
 * Expanding the categories beyond HTML adding JS, CSS playlist. 
 
 ## Authors 
-[Mary Kathryn Holt](https://github.com/MaryKathryn0)
-[Wendy Grant](https://github.com/wkgrant78)
-[Christi Kerr](https://github.com/christinakerr)
-[Jacob Nelson](https://github.com/Jacobn88)
+[Mary Kathryn Holt](https://github.com/MaryKathryn0)<br>
+[Wendy Grant](https://github.com/wkgrant78)<br>
+[Christi Kerr](https://github.com/christinakerr)<br>
+[Jacob Nelson](https://github.com/Jacobn88)<br>
 
