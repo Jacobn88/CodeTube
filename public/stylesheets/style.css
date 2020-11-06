@@ -48,6 +48,10 @@ h1#logo {
   color: rgb(0, 54, 125)
 }
 
+#logo {
+  padding-bottom: 4px;
+}
+
 h1 {
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: rgb(0, 54, 125);
@@ -113,7 +117,9 @@ h2 {
   margin-top: 3px;
 }
 
+/* attempt to border/outline around video
 .videobox {
   outline-color: black;
   border-width: 100px;
-}
+} */
+
