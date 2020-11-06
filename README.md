@@ -25,23 +25,30 @@ SO THAT I can quickly locate/access/organize videos and learn content efficientl
 
 #### Login Page
 First Login to your account or go to next step to create a login
-(insert picture of login page)
+<img src="./public/images/login-page.png" alt="login page" width="300"/>
 
 #### Create Account
 Create an account if you do not have one
-(insert picture of create account page)
+(insert create account page)
+
 
 #### Members Pages: Curated Playlist
 After loggin in you will arrive at the members page and are able to scroll thru our curated playlist that are sorted by categories of Basic, Layout and Styling
-(insert picture of member landing page and scrolling at bottom)
+
+<img src="./public/images/Members-page.png" alt="members page" width="300"/><br>
+Scroll thru to view curated playlist:<br>
+<img src="./public/images/ScrollPlaylist.png" alt="scroll playlist" width="300"/>
 
 #### Members Pages: Saved Videos
 Users are able to save their favorite videos for easy recall 
-(insert picture of members saved)
+<img src="./public/images/Members-saved.png" alt="members saved" width="300"/>
+Save videos from curated list:
+<img src="./public/images/Savevideos.png" alt="save videos" width="300"/>
 
 #### Members Pages: Search Youtube Videos
 Users also have the ability to search youtube and find new videos
 (insert picture of members search)
+<img src="./public/images/Members-search.png" alt="members search" width="300"/>
 
 ## Roadmap
 Ideas we have to expand the app are:
