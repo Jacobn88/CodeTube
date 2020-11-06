@@ -5,7 +5,6 @@ $(document).ready(function() {
   var submitButton = $("button[type=submit]")
 
   submitButton.on("click", function(event) {
-    // event.stopImmediatePropagation();
     event.preventDefault();
     var userData = {
       email: emailInput.val().trim(),
