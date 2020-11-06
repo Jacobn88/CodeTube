@@ -1,13 +1,14 @@
-<center>
 
-# CodeTube
-</center>
-<p align= "center">
-<img src="./public/images/codetubelogo.png" alt="logo" width="150"/>
-</p>
+
+# CodeTube 
+
+
+<img src="./public/images/codetubelogoblue.png" alt="logo" width="150"/>
+
 
 ## Live Demo
-Put heroku link here
+[CodeTube](https://codetube-p2.herokuapp.com/)
+
 
 ## About
 Website to access great online video tutorials when you are learning HTML for the first time. Create a login to begin accessing our curated playlist of the most helpful instructional videos by category. Save the videos that helped you the most and also search for your own to add and view later!
@@ -19,6 +20,8 @@ SO THAT I can quickly locate/access/organize videos and learn content efficientl
 
 
 ## Usage
+
+<img src="./public/images/codetube-icon.png" alt="logo" width="110"/>
 
 #### Login Page
 First Login to your account or go to next step to create a login
@@ -47,8 +50,8 @@ Ideas we have to expand the app are:
 * Expanding the categories beyond HTML adding JS, CSS playlist. 
 
 ## Authors 
-[Mary Kathryn Holt](https://github.com/MaryKathryn0)
-[Wendy Grant](https://github.com/wkgrant78)
-[Christi Kerr](https://github.com/christinakerr)
-[Jacob Nelson](https://github.com/Jacobn88)
+[Mary Kathryn Holt](https://github.com/MaryKathryn0)<br>
+[Wendy Grant](https://github.com/wkgrant78)<br>
+[Christi Kerr](https://github.com/christinakerr)<br>
+[Jacob Nelson](https://github.com/Jacobn88)<br>
 

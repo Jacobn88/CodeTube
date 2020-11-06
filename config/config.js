@@ -8,12 +8,7 @@ module.exports = {
     host: process.env.DBHOST,
     port: 3306,
     dialect: "mysql"
-    // username: "root",
-    // password: "dbpassword",
-    // database: "codetube",
-    // host: "127.0.0.1",
-    // port: 3306,
-    // dialect: "mysql"
+
   },
   test: {
     username: process.env.DBUSER,
