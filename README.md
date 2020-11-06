@@ -21,14 +21,14 @@ SO THAT I can quickly locate/access/organize videos and learn content efficientl
 
 ## Usage
 
-<img src="./public/images/codetube-icon.png" alt="logo" width="110"/>
+<img src="./public/images/codetube-icon.png" alt="logo" width="110"/><br>
 
 #### Login Page
-First Login to your account or go to next step to create a login
+First Login to your account or go to next step to create a login<br>
 <img src="./public/images/login-page.png" alt="login page" width="300"/>
 
 #### Create Account
-Create an account if you do not have one
+Create an account if you do not have one<br>
 (insert create account page)
 
 
