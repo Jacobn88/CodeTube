@@ -6,20 +6,22 @@ form.login {
 .nav-link {
   font-size: 19px;
   color: white;
+  font-weight: bolder;
   display: flex;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .navbar-brand {
   align-items: center;
   display: flex;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 
 
 .jumbotron {
-  margin-top: 50px;
+  margin-top: 30px;
+  padding-top: 25px;
   text-align: center;
   min-width: 100%;
   min-height: 100%;
@@ -74,7 +76,4 @@ h2 {
   color: whitesmoke;
 }
 
-.nav-link {
-  color: rgb(229, 235, 241);
-  background-color: transparent;
-}
+
