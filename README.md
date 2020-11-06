@@ -19,16 +19,16 @@ I WANT to access a curated selection of video tutorials
 SO THAT I can quickly locate/access/organize videos and learn content efficiently
 
 
-## Usage
+## Usage<br>
 
-<img src="./public/images/codetube-icon.png" alt="logo" width="110"/>
+<img src="./public/images/codetube-icon.png" alt="logo" width="110"/><br>
 
 #### Login Page
-First Login to your account or go to next step to create a login
+First Login to your account or go to next step to create a login<br>
 <img src="./public/images/login-page.png" alt="login page" width="300"/>
 
 #### Create Account
-Create an account if you do not have one
+Create an account if you do not have one<br>
 (insert create account page)
 
 
@@ -41,14 +41,14 @@ Scroll thru to view curated playlist:<br>
 
 #### Members Pages: Saved Videos
 Users are able to save their favorite videos for easy recall 
-<img src="./public/images/Members-saved.png" alt="members saved" width="300"/>
+<img src="./public/images/Members-saved.png" alt="members saved" width="300"/><br>
 Save videos from curated list:
 <img src="./public/images/Savevideos.png" alt="save videos" width="300"/>
 
 #### Members Pages: Search Youtube Videos
 Users also have the ability to search youtube and find new videos
-(insert picture of members search)
-<img src="./public/images/Members-search.png" alt="members search" width="300"/>
+
+<img src="./public/images/members-search.png" alt="members search" width="300"/>
 
 ## Roadmap
 Ideas we have to expand the app are:
