@@ -35,14 +35,14 @@ Create an account if you do not have one<br>
 #### Members Pages: Curated Playlist
 After loggin in you will arrive at the members page and are able to scroll thru our curated playlist that are sorted by categories of Basic, Layout and Styling
 
-<img src="./public/images/Members-page.png" alt="members page" width="300"/><br>
+<img src="./public/images/Members-page.png" alt="members page" width="300"/>  <br>
 Scroll thru to view curated playlist:<br>
 <img src="./public/images/ScrollPlaylist.png" alt="scroll playlist" width="300"/>
 
 #### Members Pages: Saved Videos
-Users are able to save their favorite videos for easy recall 
-<img src="./public/images/Members-saved.png" alt="members saved" width="300"/><br>
-Save videos from curated list:
+Users are able to save their favorite videos for easy recall <br>
+<img src="./public/images/members-saved.png" alt="members saved" width="300"/> 
+Save videos from curated list:<br>
 <img src="./public/images/Savevideos.png" alt="save videos" width="300"/>
 
 #### Members Pages: Search Youtube Videos
