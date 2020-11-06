@@ -29,7 +29,7 @@ First Login to your account or go to next step to create a login<br>
 
 #### Create Account
 Create an account if you do not have one<br>
-(insert create account page)
+<img src="./public/images/CreateAccount.png" alt="create account" width="300"/>
 
 
 #### Members Pages: Curated Playlist
