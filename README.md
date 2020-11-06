@@ -33,7 +33,7 @@ Create an account if you do not have one<br>
 
 
 #### Members Pages: Curated Playlist
-After loggin in you will arrive at the members page and are able to scroll thru our curated playlist that are sorted by categories of Basic, Layout and Styling
+After loggin in you will arrive at the members page and are able to scroll thru our curated playlist that are sorted by categories of Basic, Layout, Styling and Advanced
 
 <img src="./public/images/Members-page.png" alt="members page" width="300"/>  <br>
 Scroll thru to view curated playlist:<br>
