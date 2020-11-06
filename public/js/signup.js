@@ -1,8 +1,26 @@
 $(document).ready(function() {
-  var signUpForm = $("form.signup");
   var emailInput = $("input#email-input");
   var passwordInput = $("input#password-input");
-  var submitButton = $("button[type=submit]")
+  var submitButton = $("button[type=submit]");
+
+
+  function handleLoginErr(err) {
+    $("#alert .msg").text(err.responseJSON);
+    $("#alert").fadeIn(500);
+  }
+
+  function signUpUser(email, password) {
+    $.post("/api/signup", {
+      email: email,
+      password: password
+    })
+      .then(function() {
+        window.location.replace("/members");
+      })
+      .catch(handleLoginErr);
+  }
+
+
 
   submitButton.on("click", function(event) {
     event.preventDefault();
@@ -20,19 +38,4 @@ $(document).ready(function() {
     passwordInput.val("");
   });
 
-  function signUpUser(email, password) {
-    $.post("/api/signup", {
-      email: email,
-      password: password
-    })
-      .then(function(data) {
-        window.location.replace("/members");
-      })
-      .catch(handleLoginErr);
-  }
-
-  function handleLoginErr(err) {
-    $("#alert .msg").text(err.responseJSON);
-    $("#alert").fadeIn(500);
-  }
 });

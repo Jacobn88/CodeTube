@@ -1,4 +1,4 @@
-module.exports = function (sequelize, DataTypes) {  
+module.exports = function (sequelize, DataTypes) {
   var Videos = sequelize.define("Videos", {
     url: {
       type: DataTypes.STRING,
@@ -6,10 +6,10 @@ module.exports = function (sequelize, DataTypes) {
     }
   });
 
-  //make association 
+  //make association
   Videos.associate = function (models) {
     Videos.belongsTo(models.User, {
-    })
-  }
+    });
+  };
   return Videos;
 };

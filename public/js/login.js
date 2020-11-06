@@ -1,8 +1,20 @@
 $(document).ready(function() {
-  var loginForm = $("form.login");
   var emailInput = $("input#email-input");
   var passwordInput = $("input#password-input");
-  var submitButton = $("input[type=submit]")
+  var submitButton = $("input[type=submit]");
+
+  function loginUser(email, password) {
+    $.post("/api/login", {
+      email: email,
+      password: password
+    })
+      .then(function() {
+        window.location.replace("/members");
+      })
+      .catch(function(err) {
+        console.log(err);
+      });
+  }
 
   submitButton.on("click", function(event) {
     event.stopImmediatePropagation();
@@ -19,17 +31,4 @@ $(document).ready(function() {
     emailInput.val("");
     passwordInput.val("");
   });
-
-  function loginUser(email, password) {
-    $.post("/api/login", {
-      email: email,
-      password: password
-    })
-      .then(function() {
-        window.location.replace("/members");
-      })
-      .catch(function(err) {
-        console.log(err);
-      });
-  }
 });

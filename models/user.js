@@ -1,5 +1,5 @@
 var bcrypt = require("bcryptjs");
-module.exports = function (sequelize, DataTypes) {  
+module.exports = function (sequelize, DataTypes) {
   var User = sequelize.define("User", {
     email: {
       type: DataTypes.STRING,
@@ -15,12 +15,12 @@ module.exports = function (sequelize, DataTypes) {
     }
   });
 
-  //make association 
+  //make association
   User.associate = function (models) {
     User.hasMany(models.Videos, {
       onDelete: "cascade"
-    })
-  }
+    });
+  };
 
 
   User.prototype.validPassword = function (password) {
